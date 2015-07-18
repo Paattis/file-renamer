@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="filerenamer.exe" version="1.0.0.0" publicKeyToken="4c9cf261bc71d706" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="filerenamer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="filerenamer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="filerenamer.exe" size="15872">
+      <assemblyIdentity name="filerenamer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rieXBMEPcsdZdOJAUvexuOmRSbQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=leevi-PC\Leevi" issuerKeyHash="9c13b2780c6f5c7c71091037e1c2915b29fce0d3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>/vlGr/nK6m9T9ODjuGyEGqCU51o=</DigestValue></Reference></SignedInfo><SignatureValue>Sp4LdfEDlLLbNZE6J3yA+qyrdtO+2Y87RQAUY/lFOIqDawhF1MehzQVjAEutDMYGpS41Iwj3O152mjR5oMI700hsO+3RQwMgIiGb2xlSkBm+4LU4ji592pkxMdHwksc/1+HVWa9/Jlzb4B1PwgpzM0Zciu8P4SMz7T3S/Glu280=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mkyDt+WNFYAK02X3OnipK40dHAS2QL01HpkwI1AJCt9sZoXGO3z4x9VrAs93+GM/W8aEtLg5EQLUh06aryrUJx/1QvCKPUZhNV7bKEq5gFuxffthfVRQ8ndA8W29L92TDoXUbeA8uqyHPnZH2KJJ21/0wRP9Ax6gCcQCMntEODU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5ae794a01a846cb8e3e0f4536feacaf9af46f9fe" Description="" Url=""><as:assemblyIdentity name="filerenamer.exe" version="1.0.0.0" publicKeyToken="4c9cf261bc71d706" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=leevi-PC\Leevi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>9gNFT8Jx0/vdysjC3eI4dAcI7ro=</DigestValue></Reference></SignedInfo><SignatureValue>H6kNJLzFdW2KzN4J/eW2YY6iwZh4Na7svM7QnwiW/xxaXmCHjlbWntXQhaMqBvuXCh5Xd3QmYWHQrFf8PU3lja2vr6soSID2IQwm1diliL7VcUGY7iNCwn2nM2sw19RbIE6p5Nsv9B28RSEa03x9ITdlaGTxQ14mtrWnK+6yFX8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mkyDt+WNFYAK02X3OnipK40dHAS2QL01HpkwI1AJCt9sZoXGO3z4x9VrAs93+GM/W8aEtLg5EQLUh06aryrUJx/1QvCKPUZhNV7bKEq5gFuxffthfVRQ8ndA8W29L92TDoXUbeA8uqyHPnZH2KJJ21/0wRP9Ax6gCcQCMntEODU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQZfmh5goyrI1ONfD4/UtwZDANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAbABlAGUAdgBpAC0AUABDAFwATABlAGUAdgBpMB4XDTE1MDcxODIwNTUzNFoXDTE2MDcxODAyNTUzNFowJzElMCMGA1UEAx4cAGwAZQBlAHYAaQAtAFAAQwBcAEwAZQBlAHYAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAmkyDt+WNFYAK02X3OnipK40dHAS2QL01HpkwI1AJCt9sZoXGO3z4x9VrAs93+GM/W8aEtLg5EQLUh06aryrUJx/1QvCKPUZhNV7bKEq5gFuxffthfVRQ8ndA8W29L92TDoXUbeA8uqyHPnZH2KJJ21/0wRP9Ax6gCcQCMntEODUCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBwg2oIZkHfHZJ/Fc9JWgTdkm1GaejhUmIIKl2GTcVqsC3U2Jvbj4dKkCmERuKY10GjK//NKkrAoeAivRWGDgUNvNxJnPOfMdkPdZHHcaxS5bmINT/42sxdHjWh4tJvBMEXfdl2zRvSjUV85EKSd1nj24bFWmkv19Y9Yla+UlqRJw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
