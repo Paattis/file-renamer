@@ -42,7 +42,7 @@ namespace filerenamer
             }
             else if (dr == DialogResult.Cancel)
             {
-                //User pressed cancel
+               
             }
         }
 
@@ -154,14 +154,26 @@ namespace filerenamer
 
             progbar_renameProgress.Value = filesrenamed;
             lbl_filecounter.Text = filesrenamed + "/" + fileamount;
+
+            if (filesrenamed == fileamount)
+            {
+                lbl_filecounter.Text = filesrenamed + "/" + fileamount+" - Complete!";
+            }
                       
                        
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            
-            btn_startRenaming.Enabled = true;
+            openFileDialog1.Reset();
+            txt_selectedfiles.Text = "";
+            Array files = openFileDialog1.FileNames.ToArray();
+
+            foreach (string file in files)
+            {
+                txt_selectedfiles.AppendText(file + "\r\n");
+            }
+            MessageBox.Show("Renaming files complete!");
 
         }
 

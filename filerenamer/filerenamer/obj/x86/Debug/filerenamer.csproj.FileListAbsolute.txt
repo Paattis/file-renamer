@@ -9,3 +9,14 @@ c:\Users\Leevi\Documents\Visual Studio 2010\Projects\filerenamer\filerenamer\bin
 c:\Users\Leevi\Documents\Visual Studio 2010\Projects\filerenamer\filerenamer\bin\Debug\filerenamer.application
 c:\Users\Leevi\Documents\Visual Studio 2010\Projects\filerenamer\filerenamer\obj\x86\Debug\filerenamer.exe.manifest
 c:\Users\Leevi\Documents\Visual Studio 2010\Projects\filerenamer\filerenamer\obj\x86\Debug\filerenamer.application
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\obj\x86\Debug\filerenamer.exe
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\obj\x86\Debug\filerenamer.pdb
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\bin\Debug\filerenamer.exe.manifest
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\bin\Debug\filerenamer.application
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\bin\Debug\filerenamer.exe
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\bin\Debug\filerenamer.pdb
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\obj\x86\Debug\filerenamer.btn_selectFiles.resources
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\obj\x86\Debug\filerenamer.Properties.Resources.resources
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\obj\x86\Debug\filerenamer.csproj.GenerateResource.Cache
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\obj\x86\Debug\filerenamer.exe.manifest
+C:\Users\Leevi\Documents\GitHub\file-renamer\filerenamer\filerenamer\obj\x86\Debug\filerenamer.application
